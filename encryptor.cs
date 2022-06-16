@@ -73,6 +73,7 @@ namespace encrypt_decrypt_string
             string text= "WaterWorld";
             string encrypted = Encrypt(text);
             string decrypted = Decrypt(encrypted);
+            Console.WriteLine(encrypted);
             Console.WriteLine(decrypted);
         }
     }
